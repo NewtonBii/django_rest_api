@@ -7,5 +7,5 @@ from .models import UserInformation
 # create a UserInformationSerializer class that will inhertit form the ModelSerializer class
 class UserInformationSerializer(serializers.ModelSerializer):
     class Meta:
-        models = UserInformation
+        model = UserInformation
         fields = ('name', 'date_of_birth', 'blood_group', 'gender', 'race')
