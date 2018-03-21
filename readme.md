@@ -17,7 +17,7 @@ To test the application. You need:
    * Create your own local database:
         * ``psql``
         * ``CREATE DATABASE <name of your database>``
-  * Go to the ``settings.py`` module in the django_rest_api directory and change the databases configurations to point to the database
+  * Go to the ``settings.py`` module in the django_rest_api directory and change the database configurations to point to the database
     you just created.
 
   * Migrate your models to your database: ``python manage.py makemigrations`` and then ``python manage.py migrate``
