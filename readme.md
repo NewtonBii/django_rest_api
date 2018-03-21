@@ -3,11 +3,11 @@ This is a sample application that shows how you can create a simple REST API usi
 
 # Prerequisites
 To test the application. You need:
-* Postman
+* Postman (You will need it to make requests and view response from your api)
 * Django 1.11
 * Python 3
-* PostgreSQL
-* psycopg2
+* PostgreSQL (your database)
+* psycopg2 (the backend engine for your database)
 
 # Usage
    * Clone [this](https://github.com/NewtonBii/django_rest_api) repository.
