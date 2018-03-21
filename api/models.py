@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# create a UserInformation class that will create new users
 class UserInformation(models.Model):
     name = models.CharField(max_length=150)
     date_of_birth = models.DateField()
